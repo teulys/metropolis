@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                // Metropolis brand colors
+                metropolis: {
+                    primary: '#FE6439',
+                    secondary: '#F4D8AA',
+                    gradient: {
+                        from: '#FE6439',
+                        to: '#FF4B2B',
+                    }
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,12 +94,21 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+                'float': {
+                    '0%, 100%': { transform: 'translateY(0)' },
+                    '50%': { transform: 'translateY(-10px)' },
+                },
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+                'float': 'float 6s ease-in-out infinite',
+			},
+            backgroundImage: {
+                'hero-pattern': "url('/lovable-uploads/3df31d3a-9b3c-43ff-8423-d17a7e8fa30b.png')",
+                'gradient-primary': 'linear-gradient(to right, #FE6439, #FF4B2B)',
+            },
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
