@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
@@ -32,6 +31,34 @@ const Index = () => {
                 >
                   {t('hero.cta')}
                 </Button>
+                
+                {/* App Store Links */}
+                <div className="mt-6 flex flex-col sm:flex-row gap-4">
+                  <a 
+                    href="https://play.google.com/store/apps/details?id=com.teulys.metropolis" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="transition-transform hover:scale-105"
+                  >
+                    <img 
+                      src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
+                      alt="Get it on Google Play" 
+                      className="h-12 w-auto"
+                    />
+                  </a>
+                  <a 
+                    href="https://apps.apple.com/us/app/metropolis-dr/id6744328213" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="transition-transform hover:scale-105"
+                  >
+                    <img 
+                      src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" 
+                      alt="Download on the App Store" 
+                      className="h-12 w-auto"
+                    />
+                  </a>
+                </div>
               </div>
               <div className="md:w-1/2 flex justify-center">
                 <div className="relative">
@@ -237,6 +264,42 @@ const Index = () => {
                   </div>
                 </CardContent>
               </Card>
+            </div>
+          </div>
+        </section>
+
+        {/* App Store Links Section */}
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl md:text-4xl font-bold">{t('download.title')}</h2>
+              <p className="mt-4 text-lg text-gray-600">{t('download.subtitle')}</p>
+            </div>
+            <div className="flex flex-col sm:flex-row justify-center gap-6 max-w-md mx-auto">
+              <a 
+                href="https://play.google.com/store/apps/details?id=com.teulys.metropolis" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-105"
+              >
+                <img 
+                  src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
+                  alt="Get it on Google Play" 
+                  className="h-16 w-auto"
+                />
+              </a>
+              <a 
+                href="https://apps.apple.com/us/app/metropolis-dr/id6744328213" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-105"
+              >
+                <img 
+                  src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" 
+                  alt="Download on the App Store" 
+                  className="h-16 w-auto"
+                />
+              </a>
             </div>
           </div>
         </section>

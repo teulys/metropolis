@@ -50,6 +50,10 @@ const translations = {
     'team.christian.role': 'Co-founder',
     'team.contact': 'Contact',
     
+    // Download
+    'download.title': 'Download Our App',
+    'download.subtitle': 'Get the Metropolis app on your mobile device for the best experience',
+    
     // Privacy
     'privacy.title': 'Privacy Policy',
     'privacy.intro': 'Metropolis Condominium App ("we", "our", or "us") provides a mobile application designed to help users manage and interact with their condominiums efficiently. This Privacy Policy describes how we collect, use, and protect your information when you use our app.',
@@ -123,6 +127,10 @@ const translations = {
     'team.christian.name': 'Christian Santana',
     'team.christian.role': 'Co-fundador',
     'team.contact': 'Contacto',
+    
+    // Download
+    'download.title': 'Descarga Nuestra App',
+    'download.subtitle': 'Obtén la aplicación Metropolis en tu dispositivo móvil para la mejor experiencia',
     
     // Privacy
     'privacy.title': 'Política de Privacidad',
