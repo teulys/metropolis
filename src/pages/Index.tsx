@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Button } from '@/components/ui/button';
@@ -40,11 +41,13 @@ const Index = () => {
                     rel="noopener noreferrer"
                     className="transition-transform hover:scale-105"
                   >
-                    <img 
-                      src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
-                      alt="Get it on Google Play" 
-                      className="h-12 w-auto"
-                    />
+                    <div className="h-14 flex items-center">
+                      <img 
+                        src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
+                        alt="Get it on Google Play" 
+                        className="h-auto w-[135px]"
+                      />
+                    </div>
                   </a>
                   <a 
                     href="https://apps.apple.com/us/app/metropolis-dr/id6744328213" 
@@ -52,11 +55,13 @@ const Index = () => {
                     rel="noopener noreferrer"
                     className="transition-transform hover:scale-105"
                   >
-                    <img 
-                      src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" 
-                      alt="Download on the App Store" 
-                      className="h-12 w-auto"
-                    />
+                    <div className="h-14 flex items-center">
+                      <img 
+                        src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" 
+                        alt="Download on the App Store" 
+                        className="h-auto w-[120px]"
+                      />
+                    </div>
                   </a>
                 </div>
               </div>
@@ -282,11 +287,13 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="transition-transform hover:scale-105"
               >
-                <img 
-                  src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
-                  alt="Get it on Google Play" 
-                  className="h-16 w-auto"
-                />
+                <div className="h-16 flex items-center">
+                  <img 
+                    src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
+                    alt="Get it on Google Play" 
+                    className="h-auto w-[160px]"
+                  />
+                </div>
               </a>
               <a 
                 href="https://apps.apple.com/us/app/metropolis-dr/id6744328213" 
@@ -294,11 +301,13 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="transition-transform hover:scale-105"
               >
-                <img 
-                  src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" 
-                  alt="Download on the App Store" 
-                  className="h-16 w-auto"
-                />
+                <div className="h-16 flex items-center">
+                  <img 
+                    src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" 
+                    alt="Download on the App Store" 
+                    className="h-auto w-[144px]"
+                  />
+                </div>
               </a>
             </div>
           </div>
